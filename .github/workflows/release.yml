@@ -1,17 +1,13 @@
 name: Manual Release
 
-# on:
-#   workflow_dispatch:
-#     inputs:
-#       release_notes:
-#         description: "Optional release notes"
-#         required: false
-#         default: ""
-
 on:
-  push:
-    branches:
-      - 'main' 
+  workflow_dispatch:
+    inputs:
+      release_notes:
+        description: "Optional release notes"
+        required: false
+        default: ""
+
 jobs:
   semantic-release:
     if: github.ref == 'refs/heads/main'
