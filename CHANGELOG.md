@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/mUsman3/semantic-release/compare/v1.0.0...v1.0.1) (2025-04-15)
+
+
+### Bug Fixes
+
+* dummy branch ([0aebeb8](https://github.com/mUsman3/semantic-release/commit/0aebeb81c4eddce3f2277028d5b414497dec98fd))
+* typo fix ([dd0fe1b](https://github.com/mUsman3/semantic-release/commit/dd0fe1bb3309fcd852459b35c0d56e0103307e8c))
+
 # 1.0.0 (2025-04-14)
 
 
